@@ -1,0 +1,77 @@
+{
+	"Version": 2,
+	"Project": {
+		"Name": "Zinc.exe",
+		"Id": "31DF2213-05F0-4ABE-897B-12E74F5BA905",
+		"FileName": "C:\\Users\\Calloway Sutton\\Desktop\\Zinc\\Zinc.vmp",
+		"Created": "9/10/2017 10:41:53 AM",
+		"Type": "ptWin32Dlg",
+		"PreAssembleEventCommandLine": "",
+		"AssembleEventCommandLine": "",
+		"PostAssembleEventCommandLine": "",
+		"PreLinkEventCommandLine": "",
+		"LinkEventCommandLine": "",
+		"AdditionalLinkSwitches": "",
+		"AdditionalLinkFiles": "",
+		"PostLinkEventCommandLine": "",
+		"LibraryPath": "",
+		"OutputFolder": "C:\\Users\\Calloway Sutton\\Desktop\\Zinc\\",
+		"OutputFile": "\"C:\\Users\\Calloway Sutton\\Desktop\\Zinc\\Debug\\Zinc.exe\"",
+		"SizeInBytes": 0,
+		"Build": true
+	},
+	"Files": [
+		{
+			"Id": "4C97DAF3-C490-48DA-B37D-4488DB168383",
+			"Name": "TextWindow.dlg",
+			"Created": "9/10/2017 10:41:53 AM",
+			"Type": "pftDLG",
+			"Path": "C:\\Users\\Calloway Sutton\\Desktop\\Zinc\\",
+			"IsOpen": true,
+			"AssembleFile": false,
+			"ChildFileRCId": "99A08965-E057-4E71-A236-0F4525CED4CF",
+			"ChildFileASMId": "6D8172A0-96D5-4867-B94C-5ACE26EA052D",
+			"ParentFileId": "",
+			"OutputFile": ""
+		},
+		{
+			"Id": "99A08965-E057-4E71-A236-0F4525CED4CF",
+			"Name": "TextMode.rc",
+			"Created": "9/10/2017 10:41:53 AM",
+			"Type": "pftRC",
+			"Path": "C:\\Users\\Calloway Sutton\\Desktop\\Zinc\\",
+			"IsOpen": true,
+			"AssembleFile": true,
+			"ChildFileRCId": "",
+			"ChildFileASMId": "",
+			"ParentFileId": "4C97DAF3-C490-48DA-B37D-4488DB168383",
+			"OutputFile": "\"C:\\Users\\Calloway Sutton\\Desktop\\Zinc\\Debug\\TextMode.res\""
+		},
+		{
+			"Id": "6D8172A0-96D5-4867-B94C-5ACE26EA052D",
+			"Name": "TextModeWindow.asm",
+			"Created": "9/10/2017 10:41:53 AM",
+			"Type": "pftASM",
+			"Path": "C:\\Users\\Calloway Sutton\\Desktop\\Zinc\\",
+			"IsOpen": false,
+			"AssembleFile": true,
+			"ChildFileRCId": "",
+			"ChildFileASMId": "",
+			"ParentFileId": "4C97DAF3-C490-48DA-B37D-4488DB168383",
+			"OutputFile": "\"C:\\Users\\Calloway Sutton\\Desktop\\Zinc\\Debug\\TextModeWindow.obj\""
+		},
+		{
+			"Id": "A501BDDC-81DD-46F5-904D-24F8CED72207",
+			"Name": "Assembly.asm",
+			"Created": "9/10/2017 10:41:53 AM",
+			"Type": "pftASM",
+			"Path": "C:\\Users\\Calloway Sutton\\Desktop\\Zinc\\",
+			"IsOpen": true,
+			"AssembleFile": true,
+			"ChildFileRCId": "",
+			"ChildFileASMId": "",
+			"ParentFileId": "",
+			"OutputFile": "\"C:\\Users\\Calloway Sutton\\Desktop\\Zinc\\Debug\\Assembly.obj\""
+		}
+	]
+}
